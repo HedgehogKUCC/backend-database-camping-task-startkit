@@ -352,3 +352,4 @@ WHERE TO_CHAR(CP.purchase_at, 'YYYY-MM') = '2024-12';
 SELECT COUNT(DISTINCT user_id) 預約會員人數
 FROM "COURSE_BOOKING"
 WHERE TO_CHAR(created_at, 'YYYY-MM') = '2024-12' AND status NOT IN ('課程已取消');
+
